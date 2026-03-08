@@ -18,7 +18,7 @@ async function loadPosts() {
                     day: 'numeric' 
                 })}</div>
                 <p class="post-excerpt">${post.excerpt}</p>
-                <a href="${post.file}">Read more →</a>
+                <a href="posts/${post.file}">Read more →</a>
             `;
             postsList.appendChild(postEl);
         });
